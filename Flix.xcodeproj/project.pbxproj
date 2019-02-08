@@ -16,6 +16,9 @@
 		261EB2D02203E99800E2A7DC /* FlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB2CF2203E99800E2A7DC /* FlixTests.swift */; };
 		261EB2DB2203E99800E2A7DC /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB2DA2203E99800E2A7DC /* FlixUITests.swift */; };
 		261EB2E92203FC4200E2A7DC /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EB2E82203FC4200E2A7DC /* MovieCell.swift */; };
+		26D692C3220D12CF000F1228 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D692C2220D12CF000F1228 /* MovieDetailsViewController.swift */; };
+		26D692C5220D2218000F1228 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D692C4220D2218000F1228 /* MovieGridViewController.swift */; };
+		26D692C7220D26D0000F1228 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D692C6220D26D0000F1228 /* MovieGridCell.swift */; };
 		68F7AB3CBA24FA53D09DCA9D /* Pods_FlixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AD385F54969537583EB6AD /* Pods_FlixUITests.framework */; };
 		822EA44EFA03E34648E20F1B /* Pods_FlixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55618C2E8FE2C1DBE9067290 /* Pods_FlixTests.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +55,9 @@
 		261EB2DA2203E99800E2A7DC /* FlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixUITests.swift; sourceTree = "<group>"; };
 		261EB2DC2203E99800E2A7DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		261EB2E82203FC4200E2A7DC /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		26D692C2220D12CF000F1228 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		26D692C4220D2218000F1228 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		26D692C6220D26D0000F1228 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		2AF101AC46D125A9C974CA08 /* Pods_Flix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB3FCA9E48555B57F84A05D /* Pods-FlixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlixUITests/Pods-FlixUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		55618C2E8FE2C1DBE9067290 /* Pods_FlixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +129,9 @@
 				261EB2C32203E99800E2A7DC /* LaunchScreen.storyboard */,
 				261EB2C62203E99800E2A7DC /* Info.plist */,
 				261EB2E82203FC4200E2A7DC /* MovieCell.swift */,
+				26D692C2220D12CF000F1228 /* MovieDetailsViewController.swift */,
+				26D692C4220D2218000F1228 /* MovieGridViewController.swift */,
+				26D692C6220D26D0000F1228 /* MovieGridCell.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -396,8 +405,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26D692C5220D2218000F1228 /* MovieGridViewController.swift in Sources */,
+				26D692C3220D12CF000F1228 /* MovieDetailsViewController.swift in Sources */,
 				261EB2BD2203E99600E2A7DC /* MoviesViewController.swift in Sources */,
 				261EB2BB2203E99600E2A7DC /* AppDelegate.swift in Sources */,
+				26D692C7220D26D0000F1228 /* MovieGridCell.swift in Sources */,
 				261EB2E92203FC4200E2A7DC /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
